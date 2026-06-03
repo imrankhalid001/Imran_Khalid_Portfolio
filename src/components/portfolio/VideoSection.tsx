@@ -16,7 +16,7 @@ export function VideoSection() {
           <div className="aspect-video w-full">
             <iframe
               className="w-full h-full"
-              src="https://www.youtube.com/embed/dQw4w9WgXcQ?rel=0"
+              src="https://www.youtube.com/embed/YLeg1NLWDH0?rel=0"
               title="About Me — Video Introduction"
               loading="lazy"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -39,7 +39,7 @@ export function VideoSection() {
           </Button>
           <Button asChild size="lg" variant="ghost" className="rounded-full">
             <a
-              href="https://loom.com"
+              href="https://www.loom.com/share/8f46da6364ff4265b5c0987c638a63c2"
               target="_blank"
               rel="noreferrer"
               className="inline-flex items-center gap-2"

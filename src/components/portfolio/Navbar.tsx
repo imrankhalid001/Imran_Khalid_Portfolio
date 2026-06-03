@@ -33,7 +33,7 @@ export function Navbar() {
     >
       <nav className="mx-auto max-w-6xl px-5 sm:px-8 h-16 flex items-center justify-between">
         <a href="#home" className="font-bold tracking-tight text-lg">
-          <span className="text-gradient-brand">aarav</span>
+          <span className="bg-gradient-to-r from-blue-300 via-indigo-300 to-purple-300 bg-clip-text text-transparent">Imran</span>
           <span className="text-foreground">.dev</span>
         </a>
 
@@ -58,7 +58,7 @@ export function Navbar() {
             {theme === "dark" ? <Sun className="size-4" /> : <Moon className="size-4" />}
           </Button>
           <Button asChild size="sm" className="hidden sm:inline-flex rounded-full">
-            <a href="#" download>
+            <a href="https://drive.google.com/file/d/14fRhYQ9O6AeGBO8TC2c_yrxqbyxqAmTh/view?usp=sharing" download>
               <Download className="size-4" /> Resume
             </a>
           </Button>

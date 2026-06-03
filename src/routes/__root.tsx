@@ -79,7 +79,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { title: "imran — Mobile App Developer (Android · Flutter · Kotlin)" },
       { name: "description", content: "Portfolio of imran khalid — Mobile App Developer building fast, scalable, user-friendly Android & Flutter applications." },
-      { name: "author", content: "Aarav Sharma" },
+      { name: "author", content: "Imran khalid" },
       { property: "og:title", content: "imran — Mobile App Developer (Android · Flutter · Kotlin)" },
       { property: "og:description", content: "Portfolio of imran khalid — Mobile App Developer building fast, scalable, user-friendly Android & Flutter applications." },
       { property: "og:type", content: "website" },

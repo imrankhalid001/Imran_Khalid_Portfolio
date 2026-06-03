@@ -21,8 +21,10 @@ export function Hero() {
           </span>
 
           <h1 className="font-display font-extrabold tracking-tight text-4xl sm:text-5xl lg:text-6xl leading-[1.05]">
-            Hi, I'm Aarav —<br />
-            <span className="text-gradient-brand">Mobile App Developer</span>
+            Hi, I'm Imran <br />
+            <span className="bg-gradient-to-r from-blue-300 via-indigo-300 to-purple-300 bg-clip-text text-transparent">
+              Mobile App Developer
+              </span>
           </h1>
 
           <p className="text-base sm:text-lg text-muted-foreground max-w-xl">
@@ -43,10 +45,10 @@ export function Hero() {
 
           <div className="flex items-center gap-1 pt-4 text-muted-foreground">
             {[
-              { href: "https://github.com", icon: Github, label: "GitHub" },
-              { href: "https://linkedin.com", icon: Linkedin, label: "LinkedIn" },
-              { href: "mailto:hello@aarav.dev", icon: Mail, label: "Email" },
-              { href: "https://play.google.com", icon: Smartphone, label: "Play Store" },
+              { href: "https://github.com/imrankhalid001", icon: Github, label: "GitHub" },
+              { href: "https://www.linkedin.com/in/imrankhalid001", icon: Linkedin, label: "LinkedIn" },
+              { href: "mailto:imrankhalid696@gmail.com", icon: Mail, label: "Email" },
+              { href: "https://wa.me/923036785454", icon: Smartphone, label: "Phone" },
             ].map(({ href, icon: Icon, label }) => (
               <a
                 key={label}
@@ -67,7 +69,7 @@ export function Hero() {
           <div className="relative rounded-[2rem] p-1 bg-gradient-to-br from-brand/60 to-transparent">
             <img
               src={avatar}
-              alt="Aarav Sharma, Mobile App Developer"
+              alt="Imran khalid, Mobile App Developer"
               width={420}
               height={420}
               className="size-[260px] sm:size-[340px] lg:size-[380px] rounded-[1.85rem] object-cover bg-surface animate-float"

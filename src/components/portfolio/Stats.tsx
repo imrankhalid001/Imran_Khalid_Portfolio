@@ -44,7 +44,7 @@ export function Stats() {
       <div className="mx-auto max-w-6xl px-5 sm:px-8 grid grid-cols-2 md:grid-cols-4 gap-6">
         {stats.map((s) => (
           <div key={s.label} className="text-center">
-            <div className="text-3xl sm:text-4xl font-bold tracking-tight text-gradient-brand">
+            <div className="text-3xl sm:text-4xl font-bold tracking-tight bg-gradient-to-r from-blue-300 via-indigo-300 to-purple-300 bg-clip-text text-transparent">
               <Counter value={s.value} />
             </div>
             <div className="mt-1 text-xs sm:text-sm text-muted-foreground uppercase tracking-wider">

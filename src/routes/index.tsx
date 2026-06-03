@@ -16,10 +16,10 @@ import { Footer } from "@/components/portfolio/Footer";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Aarav Sharma — Mobile App Developer (Android · Flutter · Kotlin)" },
-      { name: "description", content: "Portfolio of Aarav Sharma — Mobile App Developer building fast, scalable, and user-friendly Android & Flutter applications." },
-      { property: "og:title", content: "Aarav Sharma — Mobile App Developer" },
-      { property: "og:description", content: "Android · Flutter · Kotlin. 500k+ downloads, 24 shipped apps, 6 years of mobile craft." },
+      { title: "Imran khalid — Mobile App Developer (Android · Flutter · Kotlin)" },
+      { name: "description", content: "Portfolio of Imran khalid — Mobile App Developer building fast, scalable, and user-friendly Android & Flutter applications." },
+      { property: "og:title", content: "Imran khalid — Mobile App Developer" },
+      { property: "og:description", content: "Android · Flutter · Kotlin. 500k+ downloads, 24 shipped apps, 6+ years of mobile craft." },
       { property: "og:url", content: "/" },
     ],
     links: [{ rel: "canonical", href: "/" }],
@@ -29,7 +29,7 @@ export const Route = createFileRoute("/")({
         children: JSON.stringify({
           "@context": "https://schema.org",
           "@type": "Person",
-          name: "Aarav Sharma",
+          name: "Imran khalid",
           jobTitle: "Mobile App Developer",
           knowsAbout: ["Android", "Flutter", "Kotlin", "Dart", "Firebase"],
           url: "/",

@@ -28,7 +28,7 @@ export function Contact() {
     setSubmitting(true);
     const subject = encodeURIComponent(`Portfolio inquiry from ${parsed.data.name}`);
     const body = encodeURIComponent(`${parsed.data.message}\n\n— ${parsed.data.name} (${parsed.data.email})`);
-    window.location.href = `mailto:hello@aarav.dev?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:imrankhalid696@gmail.com?subject=${subject}&body=${body}`;
     setTimeout(() => {
       toast.success("Opening your email app…");
       setSubmitting(false);
@@ -51,16 +51,16 @@ export function Contact() {
                 <span className="size-2.5 rounded-full bg-emerald-500 animate-pulse" />
                 <span className="text-sm">Available for new projects</span>
               </div>
-              <a href="mailto:hello@aarav.dev" className="flex items-center gap-3 text-sm hover:text-brand transition-colors">
-                <Mail className="size-4 text-muted-foreground" /> hello@aarav.dev
+              <a href="mailto:imrankhalid696@gmail.com" className="flex items-center gap-3 text-sm hover:text-brand transition-colors">
+                <Mail className="size-4 text-muted-foreground" /> imrankhalid696@gmail.com
               </a>
               <div className="flex items-center gap-3 text-sm text-muted-foreground">
-                <MapPin className="size-4" /> Bengaluru, India · Remote
+                <MapPin className="size-4" /> Lahore, Pakistan · Remote
               </div>
             </div>
 
             <a
-              href="https://wa.me/919999999999"
+              href="https://wa.me/923036785454"
               target="_blank"
               rel="noreferrer"
               className="flex items-center justify-between rounded-2xl border border-border bg-surface/60 p-5 hover:border-brand/60 transition-colors group"
@@ -79,9 +79,9 @@ export function Contact() {
 
             <div className="flex gap-2">
               {[
-                { href: "https://github.com", icon: Github, label: "GitHub" },
-                { href: "https://linkedin.com", icon: Linkedin, label: "LinkedIn" },
-                { href: "mailto:hello@aarav.dev", icon: Mail, label: "Email" },
+                { href: "https://github.com/imrankhalid001", icon: Github, label: "GitHub" },
+                { href: "https://www.linkedin.com/in/imrankhalid001", icon: Linkedin, label: "LinkedIn" },
+                { href: "mailto:imrankhalid696@gmail.com", icon: Mail, label: "Email" },
               ].map(({ href, icon: Icon, label }) => (
                 <a
                   key={label}

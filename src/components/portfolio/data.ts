@@ -72,12 +72,12 @@ export const skills = [
 ];
 
 export const certificates = [
-  { title: "Associate Android Developer", org: "Google", date: "2024", href: "#" },
-  { title: "Flutter Development Bootcamp", org: "Udemy", date: "2023", href: "#" },
-  { title: "Kotlin for Java Developers", org: "Coursera", date: "2023", href: "#" },
-  { title: "Firebase in a Weekend", org: "Google", date: "2022", href: "#" },
-  { title: "Material Design 3 Specialist", org: "Google", date: "2024", href: "#" },
-  { title: "Clean Architecture in Android", org: "Coursera", date: "2024", href: "#" },
+  { title: "Flutter Essential Training: Build for Multiple Platforms", org: "LinkedIn", date: "2026", href: "https://www.linkedin.com/learning/certificates/f02896ef354d9114d54ba63db60b723e481d9008d0a308a45f7c19d27aca0f7e?trk=share_certificate&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3Br3IwIDqQSJydIp4QxALXUA%3D%3D" },
+  { title: "Prompt Engineering: How to Talk to the AIs", org: "LinkedIn", date: "2026", href: "https://www.linkedin.com/learning/certificates/95c57e2d4a4737976ab1a698368a3b984364c0aa8217d74e9f2520e698fa2393?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3Br3IwIDqQSJydIp4QxALXUA%3D%3D" },
+  { title: "Rapid Idea Generation Using AI", org: "LinkedIn", date: "2026", href: "https://www.linkedin.com/learning/certificates/fcdd4d300c461e841679cce75bb688c47f006e6168341b83cdc0a24e60c9d49c?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3Br3IwIDqQSJydIp4QxALXUA%3D%3D" },
+  { title: "Building AI-Powered Android Apps with Gemini", org: "LinkedIn", date: "2026", href: "https://www.linkedin.com/learning/certificates/2b85960682220d4aa9308554f4bbaefbd6a59c34076e12a0a1cf25327c60646d?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3Br3IwIDqQSJydIp4QxALXUA%3D%3D" },
+  { title: "CyberSavvy: Navigating Linux & Essential Cybersecurity", org: "UrduCourses", date: "2025", href: "https://cst.urducourses.pk/tutor-certificate/?cert_hash=4c757a1fcf193670" },
+  { title: "Dart Programming", org: "Udemy", date: "2023", href: "https://www.udemy.com/certificate/UC-626e45ed-6e04-4590-b257-77c7e80f844c" },
 ];
 
 export const experience = [
@@ -121,7 +121,7 @@ export const stats = [
 
 export const testimonials = [
   {
-    quote: "Aarav delivered our Flutter app in record time without compromising on polish. A rare talent.",
+    quote: "Imran delivered our Flutter app in record time without compromising on polish. A rare talent.",
     name: "Priya Mehta",
     role: "CTO, Bento Eats",
   },
