@@ -77,13 +77,17 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Aarav Sharma — Mobile App Developer (Android · Flutter · Kotlin)" },
-      { name: "description", content: "Portfolio of Aarav Sharma — Mobile App Developer building fast, scalable, user-friendly Android & Flutter applications." },
+      { title: "imran — Mobile App Developer (Android · Flutter · Kotlin)" },
+      { name: "description", content: "Portfolio of imran khalid — Mobile App Developer building fast, scalable, user-friendly Android & Flutter applications." },
       { name: "author", content: "Aarav Sharma" },
-      { property: "og:title", content: "Aarav Sharma — Mobile App Developer" },
-      { property: "og:description", content: "Building fast, scalable, and user-friendly mobile applications with Android, Flutter & Kotlin." },
+      { property: "og:title", content: "imran — Mobile App Developer (Android · Flutter · Kotlin)" },
+      { property: "og:description", content: "Portfolio of imran khalid — Mobile App Developer building fast, scalable, user-friendly Android & Flutter applications." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "imran — Mobile App Developer (Android · Flutter · Kotlin)" },
+      { name: "twitter:description", content: "Portfolio of imran khalid — Mobile App Developer building fast, scalable, user-friendly Android & Flutter applications." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/648c9207-e060-48c1-b4f4-1d4bfc6d96c8/id-preview-5ef29658--324f7bff-23a7-442a-86cb-c96e0685a9c7.lovable.app-1780494589636.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/648c9207-e060-48c1-b4f4-1d4bfc6d96c8/id-preview-5ef29658--324f7bff-23a7-442a-86cb-c96e0685a9c7.lovable.app-1780494589636.png" },
     ],
     links: [
       {
