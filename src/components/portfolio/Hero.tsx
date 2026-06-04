@@ -1,6 +1,6 @@
 import { ArrowRight, Github, Linkedin, Mail, Smartphone } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import avatar from "@/assets/avatar.jpg";
+import avatar from "@/assets/avatar.png";
 
 export function Hero() {
   return (

@@ -26,16 +26,23 @@ export function About() {
         <div className="grid lg:grid-cols-2 gap-10 items-start">
           <div className="space-y-4 text-muted-foreground leading-relaxed">
             <p>
-              I'm a mobile engineer who loves shipping apps that feel
-              instantaneous and look beautiful. I focus on clean architecture,
-              strong testing and tight design–engineering collaboration.
+              I'm a mobile engineer with 6+ years of experience building high-performance Android and cross-platform 
+              applications that feel instantaneous and look beautiful. I focus on clean architecture, scalable codebases,
+              and strong collaboration between design and engineering teams.
             </p>
             <p>
-              Recently I led a Compose rewrite that cut cold-start time by 42%,
-              and shipped a Flutter companion now used by 120k people monthly.
-              I care about accessibility, dark mode done right, and the small
-              details that make great apps memorable.
+             I have led and contributed to multiple production apps across different domains, with one of my applications
+              surpassing 100K+ downloads and significantly improving production stability by reducing crash rates to under 1%. 
+              My work spans enterprise-level Android systems including device owner solutions with advanced device management 
+              features such as remote lock and data control.
             </p>
+
+            <p>
+             I also have experience building smart home applications with real-time communication systems, along with integrating
+              payment gateways like Stripe, HyperPay, Tabby, and Tamara for GCC-based platforms. My apps are used globally with 
+              strong multilingual support and localization strategies.
+            </p>
+
 
             <div className="flex flex-wrap gap-2 pt-4">
               {tech.map((t) => (

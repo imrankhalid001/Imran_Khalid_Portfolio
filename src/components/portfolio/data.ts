@@ -1,6 +1,6 @@
-import p1 from "@/assets/project-1.jpg";
-import p2 from "@/assets/project-2.jpg";
-import p3 from "@/assets/project-3.jpg";
+import p1 from "@/assets/project-1.png";
+import p2 from "@/assets/project-2.png";
+import p3 from "@/assets/project-3.png";
 import p4 from "@/assets/project-4.jpg";
 
 export type Category = "Android" | "Flutter" | "Open Source" | "UI/UX";
@@ -17,45 +17,56 @@ export const projects: {
   demo?: string;
 }[] = [
   {
-    title: "FitTrack Pro",
-    description: "Workout & nutrition tracker with offline-first sync, 50k+ downloads on Play Store.",
+    title: "QR Code Scanner & Generator",
+    description: "Built an all-in-one QR Code Scanner & Generator app that enables fast scanning, creation, and customization of QR codes with support for colors, logos, styles, and multiple formats. Implemented offline local storage for saving and managing generated QR codes with instant sharing capabilities. Designed for both personal and business use with a clean UI and high-performance real-time scanning experience.",
     image: p1,
     stack: ["Kotlin", "Jetpack Compose", "Room", "Firebase"],
     features: ["Offline sync", "Custom charts", "Apple Health import", "Dark mode"],
     category: ["Android"],
-    playStore: "#",
-    github: "#",
+    playStore: "https://play.google.com/store/apps/details?id=com.imidroid.barcodescanner",
+
   },
   {
-    title: "Bento Eats",
-    description: "Cross-platform food delivery app with live order tracking and Stripe payments.",
+    title: "Kinetic Fitness App",
+    description: "Kinetic Fitness App (Flutter): Coaching, Workouts, Nutrition, Progress Tracking Designed and delivered a full-scale fitness and wellness mobile app built with Flutter, combining personal coaching, structured workouts, nutrition planning, body tracking, and visual progress tools into a single, high-performance platform.",
     image: p2,
-    stack: ["Flutter", "Dart", "Riverpod", "Stripe"],
-    features: ["Live tracking", "Push notifications", "12 languages", "A/B testing"],
-    category: ["Flutter"],
-    playStore: "#",
-    demo: "#",
+    stack: ["Flutter", "Dart", "Stacked Management", "Social feed"],
+    features: ["Personalized workout plans", "Assign a personal coach", "Diet tracking & recipe search", "Log, weight, goals & body fat", "Chat with coaches for guidance"],
+    category: ["Flutter" , "UI/UX"],
+    demo: "https://www.youtube.com/shorts/jbNbnxHEzng",
   },
   {
-    title: "Lumen Finance",
-    description: "Personal finance dashboard with AI-powered budget insights and bank sync.",
+    title: "PDF Converter: Image to PDF",
+    description: "PDF Converter is a simple and efficient Android app that allows users to convert images into high-quality PDF files within seconds. Designed for quick and smooth performance, it supports multiple image selections, PDF customization, and offline conversion. Perfect for students, professionals, and everyday users who need a fast and reliable image-to-PDF solution.",
     image: p3,
-    stack: ["Kotlin", "Hilt", "Coroutines", "MVVM"],
-    features: ["Plaid integration", "Biometric auth", "Widgets", "WearOS companion"],
-    category: ["Android", "UI/UX"],
-    github: "#",
-    playStore: "#",
+    stack: ["Kotlin", "Hilt", "Coroutines", "MVVM", "Firebase", "Room Database"],
+    features: ["Convert Images to PDF", "Smart Sorting Options", "Compress PDF File Size", " Work 100% Offline", "Share PDFs Instantly", "View PDFs Within the App"],
+    category: ["Android"],
+    playStore: "https://play.google.com/store/apps/details?id=com.imidroid.imagetopdf",
   },
   {
-    title: "Stillness",
-    description: "Meditation & breathwork app with ambient soundscapes and daily streaks.",
+    title: "ExecArray",
+    description: "ExecArray is a Flutter-based event management app that simplifies the purchase or rental of event essentials like chairs, tables, tents, and more. It uses multiple APIs to provide a seamless user experience, helping users efficiently manage event logistics.",
     image: p4,
-    stack: ["Flutter", "Dart", "Firebase", "Lottie"],
-    features: ["Background audio", "Streak engine", "Family plans", "Apple/Google Pay"],
+    stack: ["Flutter", "Dart", "Firebase", "Lottie", "provider", "carousel_slider", "http"    ],
+    features: ["User Authentication:", "Product Listings", "Categories", "Cart Management"],
     category: ["Flutter", "UI/UX", "Open Source"],
-    github: "#",
-    demo: "#",
+    github: "https://github.com/imrankhalid001/ExecArray",
   },
+
+ {
+    title: "Weat Local Market",
+    description: "Weat Local is a multi-vendor marketplace that empowers sellers to list items easily with API integration, Room Database, and Firebase Analytics. Developed with MVVM architecture and Kotlin, it offers features like secure payments through Stripe, authentication, and app push notifications for a modern and efficient shopping experience.",
+    image: "",
+    stack: ["Kotlin", "Hilt", "Coroutines", "MVVM", "Firebase", "Room Database"],
+    features: ["User Authentication:", "Multi-vendor Support", "Product Listings", "Categories", "Cart Management"],
+   category: ["Android"],
+    github: "https://play.google.com/store/apps/details?id=com.weat_local.weatbuyerside",
+  },
+
+
+
+
 ];
 
 export const skills = [
@@ -83,31 +94,33 @@ export const certificates = [
 export const experience = [
   {
     role: "Senior Mobile Engineer",
-    company: "Northwind Labs",
-    period: "2023 — Present",
+    company: "Exario Digital",
+    period: "2024 — Present",
     points: [
-      "Led Android rewrite to Jetpack Compose, cutting cold-start by 42%.",
-      "Shipped Flutter web companion reaching 120k MAU.",
-      "Mentored a team of 4 engineers on Clean Architecture.",
-    ],
-  },
-  {
-    role: "Mobile Developer (Freelance)",
-    company: "Independent",
-    period: "2021 — 2023",
-    points: [
-      "Delivered 14 production apps across fintech, health and e-commerce.",
-      "Aggregate downloads exceeded 500k on Play Store.",
-      "Average store rating 4.7★.",
+      "Led development of scalable Android applications using Kotlin, MVVM, Clean Architecture, Room, Retrofit, and Jetpack components.",
+      "Implemented offline-first architecture, reducing data-fetch latency by 30% in low-connectivity environments.",
+      "Implemented enterprise Android (Device Owner) functionality for advanced device management and security.",
+      "Built real-time communication, smart home, and fintech integrations serving thousands of active users."
     ],
   },
   {
     role: "Android Developer",
-    company: "Pixel & Co.",
-    period: "2019 — 2021",
+    company: "Astute Solutions",
+    period: "2021 — 2024",
     points: [
-      "Migrated legacy Java codebase to Kotlin + Coroutines.",
-      "Introduced CI/CD with Fastlane, halving release cycle.",
+      "Delivered multilingual Android solutions across GCC markets with integrated payment ecosystems.",
+      "Reduced production crash rates by over 70% through Firebase Crashlytics monitoring, performance optimization, and proactive debugging.",
+      "Contributed to applications surpassing 100K+ downloads while maintaining strong stability metrics.",
+    ],
+  },
+  {
+    role: "Android Developer",
+    company: "DevSaar",
+    period: "2010 — 2021",
+    points: [
+      "Migrated legacy Java codebase to Kotlin + Coroutines and MVVM architecture",
+      "Modernized legacy codebases and improved maintainability through architectural migrations.",
+      "Reduced crashes and ANRs through systematic debugging and performance optimization."
     ],
   },
 ];
@@ -121,18 +134,30 @@ export const stats = [
 
 export const testimonials = [
   {
-    quote: "Imran delivered our Flutter app in record time without compromising on polish. A rare talent.",
-    name: "Priya Mehta",
-    role: "CTO, Bento Eats",
-  },
-  {
     quote: "The Compose migration he led made our app feel completely new. Engineering quality is top-tier.",
-    name: "Daniel Cho",
-    role: "Head of Mobile, Northwind",
+    name: "Adnan Qamar",
+    role: "CEO, Technixhub",
   },
   {
     quote: "Communicates clearly, ships on time, and cares about the details. Hire him.",
-    name: "Sofia Alvarez",
-    role: "Founder, Stillness",
+    name: "Junaid Saeed",
+    role: "Founder, Exario Digital",
   },
+  {
+    quote: "Imran delivered our Flutter app in record time without compromising on polish. A rare talent.",
+    name: "Mohammed",
+    role: "CEO, Supply on Demand",
+  },
+
+   {
+    quote: "Communicates clearly, ships on time, and cares about the details. Hire him.",
+    name: "Junaid Saeed",
+    role: "Founder, Exario Digital",
+  },
+  {
+    quote: "Imran delivered our Flutter app in record time without compromising on polish. A rare talent.",
+    name: "Mohammed",
+    role: "CEO, Supply on Demand",
+  },
+
 ];
