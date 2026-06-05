@@ -16,16 +16,18 @@ export const projects: {
   github?: string;
   demo?: string;
 }[] = [
-  {
-    title: "QR Code Scanner & Generator",
-    description: "Built an all-in-one QR Code Scanner & Generator app that enables fast scanning, creation, and customization of QR codes with support for colors, logos, styles, and multiple formats. Implemented offline local storage for saving and managing generated QR codes with instant sharing capabilities. Designed for both personal and business use with a clean UI and high-performance real-time scanning experience.",
-    image: p1,
-    stack: ["Kotlin", "Jetpack Compose", "Room", "Firebase"],
-    features: ["Offline sync", "Custom charts", "Apple Health import", "Dark mode"],
-    category: ["Android"],
-    playStore: "https://play.google.com/store/apps/details?id=com.imidroid.barcodescanner",
 
+
+  {
+    title: "PDF Converter: Image to PDF",
+    description: "PDF Converter is a simple and efficient Android app that allows users to convert images into high-quality PDF files within seconds. Designed for quick and smooth performance, it supports multiple image selections, PDF customization, and offline conversion. Perfect for students, professionals, and everyday users who need a fast and reliable image-to-PDF solution.",
+    image: p3,
+    stack: ["Kotlin", "Hilt", "Coroutines", "MVVM", "Firebase", "Room Database"],
+    features: ["Convert Images to PDF", "Smart Sorting Options", "Compress PDF File Size", " Work 100% Offline", "Share PDFs Instantly", "View PDFs Within the App"],
+    category: ["Android"],
+    playStore: "https://play.google.com/store/apps/details?id=com.imidroid.imagetopdf",
   },
+
   {
     title: "Kinetic Fitness App",
     description: "Kinetic Fitness App (Flutter): Coaching, Workouts, Nutrition, Progress Tracking Designed and delivered a full-scale fitness and wellness mobile app built with Flutter, combining personal coaching, structured workouts, nutrition planning, body tracking, and visual progress tools into a single, high-performance platform.",
@@ -36,13 +38,14 @@ export const projects: {
     demo: "https://www.youtube.com/shorts/jbNbnxHEzng",
   },
   {
-    title: "PDF Converter: Image to PDF",
-    description: "PDF Converter is a simple and efficient Android app that allows users to convert images into high-quality PDF files within seconds. Designed for quick and smooth performance, it supports multiple image selections, PDF customization, and offline conversion. Perfect for students, professionals, and everyday users who need a fast and reliable image-to-PDF solution.",
-    image: p3,
-    stack: ["Kotlin", "Hilt", "Coroutines", "MVVM", "Firebase", "Room Database"],
-    features: ["Convert Images to PDF", "Smart Sorting Options", "Compress PDF File Size", " Work 100% Offline", "Share PDFs Instantly", "View PDFs Within the App"],
+    title: "QR Code Scanner & Generator",
+    description: "Built an all-in-one QR Code Scanner & Generator app that enables fast scanning, creation, and customization of QR codes with support for colors, logos, styles, and multiple formats. Implemented offline local storage for saving and managing generated QR codes with instant sharing capabilities. Designed for both personal and business use with a clean UI and high-performance real-time scanning experience.",
+    image: p1,
+    stack: ["Kotlin", "Jetpack Compose", "Room", "Firebase"],
+    features: ["Offline sync", "Custom charts", "Apple Health import", "Dark mode"],
     category: ["Android"],
-    playStore: "https://play.google.com/store/apps/details?id=com.imidroid.imagetopdf",
+    playStore: "https://play.google.com/store/apps/details?id=com.imidroid.barcodescanner",
+
   },
   {
     title: "ExecArray",
