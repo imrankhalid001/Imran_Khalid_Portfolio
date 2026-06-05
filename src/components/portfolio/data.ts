@@ -57,7 +57,7 @@ export const projects: {
  {
     title: "Weat Local Market",
     description: "Weat Local is a multi-vendor marketplace that empowers sellers to list items easily with API integration, Room Database, and Firebase Analytics. Developed with MVVM architecture and Kotlin, it offers features like secure payments through Stripe, authentication, and app push notifications for a modern and efficient shopping experience.",
-    image: "",
+    image: p4,
     stack: ["Kotlin", "Hilt", "Coroutines", "MVVM", "Firebase", "Room Database"],
     features: ["User Authentication:", "Multi-vendor Support", "Product Listings", "Categories", "Cart Management"],
    category: ["Android"],
