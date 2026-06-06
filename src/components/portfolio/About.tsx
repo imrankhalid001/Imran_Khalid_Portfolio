@@ -3,7 +3,7 @@ import { SectionHeader } from "./SectionHeader";
 
 const tech = [
   "Kotlin", "Java", "Flutter", "Dart", "Jetpack Compose",
-  "Firebase", "REST APIs", "Room", "SQLite", "MVVM", "Clean Architecture", "CI/CD",
+  "Firebase", "REST APIs", "Room", "Realtime Communication", "SQLite", "MVVM", "Clean Architecture", "CI/CD",
 ];
 
 const pillars = [
