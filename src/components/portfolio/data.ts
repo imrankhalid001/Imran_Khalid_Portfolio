@@ -2,6 +2,7 @@ import p1 from "@/assets/project-1.png";
 import p2 from "@/assets/project-2.png";
 import p3 from "@/assets/project-3.png";
 import p4 from "@/assets/project-4.jpg";
+import p5 from "@/assets/project-5.png";
 
 export type Category = "Android" | "Flutter" | "Open Source" | "UI/UX";
 
@@ -16,6 +17,17 @@ export const projects: {
   github?: string;
   demo?: string;
 }[] = [
+
+
+   {
+    title: "Key Car Rental App",
+    description: "Key Car Rental App is a comprehensive mobile application designed to provide users with a seamless car rental experience. The app allows users to browse available vehicles, compare prices, and book rentals directly from their smartphones. With a user-friendly interface and real-time availability updates, it ensures a smooth and efficient rental process for both individuals and businesses.",
+    image: p5,
+    stack: ["Kotlin", "Hilt", "Coroutines", "MVVM", "Firebase", "Room Database"],
+    features: ["Real-time vehicle availability", "Secure payment processing", "User-friendly interface", "Booking management"],
+    category: ["Android", "UI/UX",],
+    playStore: "https://play.google.com/store/apps/details?id=comcom.key",
+  },
 
 
   {
