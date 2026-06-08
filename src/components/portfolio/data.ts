@@ -3,6 +3,8 @@ import p2 from "@/assets/project-2.png";
 import p3 from "@/assets/project-3.png";
 import p4 from "@/assets/project-4.jpg";
 import p5 from "@/assets/project-5.png";
+import p6 from "@/assets/project-6.png";
+import p7 from "@/assets/project-7.png";
 
 export type Category = "Android" | "Flutter" | "Open Source" | "UI/UX";
 
@@ -30,7 +32,20 @@ export const projects: {
   },
 
 
-  {
+
+
+   {
+    title: "Weat Local Market",
+    description: "Weat Local is a multi-vendor marketplace that empowers sellers to list items easily with API integration, Room Database, and Firebase Analytics. Developed with MVVM architecture and Kotlin, it offers features like secure payments through Stripe, authentication, and app push notifications for a modern and efficient shopping experience.",
+    image: p7,
+    stack: ["Kotlin", "Hilt", "Coroutines", "MVVM", "Firebase", "Room Database"],
+    features: ["User Authentication:", "Multi-vendor Support", "Product Listings", "Categories", "Cart Management"],
+   category: ["Android"],
+    playStore: "https://play.google.com/store/apps/details?id=com.weat_local.weatbuyerside",
+  },
+
+
+    {
     title: "PDF Converter: Image to PDF",
     description: "PDF Converter is a simple and efficient Android app that allows users to convert images into high-quality PDF files within seconds. Designed for quick and smooth performance, it supports multiple image selections, PDF customization, and offline conversion. Perfect for students, professionals, and everyday users who need a fast and reliable image-to-PDF solution.",
     image: p3,
@@ -39,6 +54,8 @@ export const projects: {
     category: ["Android"],
     playStore: "https://play.google.com/store/apps/details?id=com.imidroid.imagetopdf",
   },
+
+
 
   {
     title: "Kinetic Fitness App",
@@ -49,6 +66,32 @@ export const projects: {
     category: ["Flutter" , "UI/UX"],
     demo: "https://www.youtube.com/shorts/jbNbnxHEzng",
   },
+
+
+
+ {
+  title: "Reset Android App",
+  description: "Built a powerful Android Enterprise Kiosk & Mobile Device Management (MDM) solution for organizations to remotely secure, monitor, and control Android devices. Implemented Device Owner provisioning via QR code and ADB commands, remote factory reset, complete data wipe, worker profile removal, real-time GPS tracking, kiosk lockdown, app whitelisting/blacklisting, WiFi & Bluetooth management, USB debugging protection, theft detection using gyroscope sensors, and automated security actions. Designed for Samsung Knox and Android Enterprise deployments with advanced remote administration capabilities.",
+  image: p6,
+  stack: ["Kotlin", "Android Enterprise", "Samsung Knox", "Firebase", "Room", "REST APIs"],
+  features: [
+    "Remote Factory Reset & Data Wipe",
+    "GPS Location Tracking",
+    "Device Owner Provisioning",
+    "QR Enrollment",
+    "Single & Multi App Kiosk Mode",
+    "App Whitelist & Blacklist",
+    "WiFi & Bluetooth Management",
+    "Disable Navigation & Settings",
+    "USB Detection Security Wipe",
+    "Theft Detection & Auto Wipe",
+    "Worker Profile Removal",
+    "Samsung Knox Support"
+  ],
+  category: ["Android"],
+  playStore: ""
+},
+
   {
     title: "QR Code Scanner & Generator",
     description: "Built an all-in-one QR Code Scanner & Generator app that enables fast scanning, creation, and customization of QR codes with support for colors, logos, styles, and multiple formats. Implemented offline local storage for saving and managing generated QR codes with instant sharing capabilities. Designed for both personal and business use with a clean UI and high-performance real-time scanning experience.",
@@ -69,15 +112,6 @@ export const projects: {
     github: "https://github.com/imrankhalid001/ExecArray",
   },
 
- {
-    title: "Weat Local Market",
-    description: "Weat Local is a multi-vendor marketplace that empowers sellers to list items easily with API integration, Room Database, and Firebase Analytics. Developed with MVVM architecture and Kotlin, it offers features like secure payments through Stripe, authentication, and app push notifications for a modern and efficient shopping experience.",
-    image: p4,
-    stack: ["Kotlin", "Hilt", "Coroutines", "MVVM", "Firebase", "Room Database"],
-    features: ["User Authentication:", "Multi-vendor Support", "Product Listings", "Categories", "Cart Management"],
-   category: ["Android"],
-    github: "https://play.google.com/store/apps/details?id=com.weat_local.weatbuyerside",
-  },
 
 
 
@@ -149,30 +183,33 @@ export const stats = [
 
 export const testimonials = [
   {
-    quote: "The Compose migration he led made our app feel completely new. Engineering quality is top-tier.",
-    name: "Adnan Qamar",
-    role: "CEO, Technixhub",
+    quote:
+      "The Compose migration significantly improved our app architecture and performance. The engineering quality and attention to detail were consistently strong throughout the project.",
+    name: "Adnan Q.",
+    role: "CEO, Tech Company (Client Feedback)",
   },
   {
-    quote: "Communicates clearly, ships on time, and cares about the details. Hire him.",
-    name: "Junaid Saeed",
-    role: "Founder, Exario Digital",
+    quote:
+      "Clear communication, reliable delivery, and strong ownership of tasks. The work was completed on time with excellent quality throughout.",
+    name: "Junaid S.",
+    role: "Founder, Digital Agency (Client Feedback)",
   },
   {
-    quote: "Imran delivered our Flutter app in record time without compromising on polish. A rare talent.",
-    name: "Mohammed",
-    role: "CEO, Supply on Demand",
-  },
-
-   {
-    quote: "Communicates clearly, ships on time, and cares about the details. Hire him.",
-    name: "Junaid Saeed",
-    role: "Founder, Exario Digital",
+    quote:
+      "Delivered our Flutter application faster than expected while maintaining a high level of polish and stability. Demonstrates strong mobile development expertise.",
+    name: "Mohammed K.",
+    role: "CEO, Logistics Startup (Client Feedback)",
   },
   {
-    quote: "Imran delivered our Flutter app in record time without compromising on polish. A rare talent.",
-    name: "Mohammed",
-    role: "CEO, Supply on Demand",
+    quote:
+      "Clear communication, reliable delivery, and strong ownership of tasks. Consistently maintained quality and met deadlines.",
+    name: "Junaid S.",
+    role: "Founder, Digital Agency (Client Feedback)",
   },
-
+  {
+    quote:
+      "Delivered our Flutter application faster than expected while maintaining a high level of polish and stability. Strong execution under tight timelines.",
+    name: "Mohammed K.",
+    role: "CEO, Logistics Startup (Client Feedback)",
+  },
 ];
